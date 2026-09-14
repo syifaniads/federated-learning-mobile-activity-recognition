@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <style>text{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#1f2937}.title{font-size:34px;font-weight:700}.sub{font-size:16px;fill:#6b7280}.axis{font-size:12px;fill:#6b7280}.label{font-size:14px;fill:#4b5563}.metric{font-size:24px;font-weight:700}.note{font-size:15px;fill:#374151}</style>
+  <text x="60" y="55" class="title">Differential Privacy: Privacy-Utility Trade-off</text>
+  <text x="60" y="82" class="sub">Class-report run using Gaussian perturbation of model parameters</text>
+
+  <g transform="translate(80,130)">
+    <line x1="0" y1="420" x2="760" y2="420" stroke="#9ca3af"/><line x1="0" y1="20" x2="0" y2="420" stroke="#9ca3af"/>
+    <line x1="0" y1="80" x2="760" y2="80" stroke="#e5e7eb"/><line x1="0" y1="180" x2="760" y2="180" stroke="#e5e7eb"/><line x1="0" y1="280" x2="760" y2="280" stroke="#e5e7eb"/><line x1="0" y1="380" x2="760" y2="380" stroke="#e5e7eb"/>
+    <text x="-45" y="84" class="axis">100%</text><text x="-37" y="184" class="axis">75%</text><text x="-37" y="284" class="axis">50%</text><text x="-37" y="384" class="axis">25%</text>
+    <polyline points="60,376 180,375 300,372 420,360 540,336 690,42" fill="none" stroke="#2563eb" stroke-width="5"/>
+    <g fill="#2563eb"><circle cx="60" cy="376" r="7"/><circle cx="180" cy="375" r="7"/><circle cx="300" cy="372" r="7"/><circle cx="420" cy="360" r="7"/><circle cx="540" cy="336" r="7"/><circle cx="690" cy="42" r="7"/></g>
+    <g class="axis" text-anchor="middle"><text x="60" y="445">ε=0.1</text><text x="180" y="445">ε=0.5</text><text x="300" y="445">ε=1</text><text x="420" y="445">ε=5</text><text x="540" y="445">ε=10</text><text x="690" y="445">No DP</text></g>
+    <g class="label" text-anchor="middle"><text x="60" y="360">10.99%</text><text x="180" y="358">11.27%</text><text x="300" y="354">11.94%</text><text x="420" y="342">15.03%</text><text x="540" y="318">21.11%</text><text x="690" y="30">94.50%</text></g>
+  </g>
+
+  <g transform="translate(890,145)">
+    <rect width="250" height="360" rx="16" fill="#f9fafb" stroke="#e5e7eb"/>
+    <text x="20" y="38" font-size="20" font-weight="700">Key observation</text>
+    <text x="20" y="80" class="note">Smaller epsilon means</text>
+    <text x="20" y="105" class="note">stronger Gaussian noise.</text>
+    <text x="20" y="150" class="note">In this experiment the</text>
+    <text x="20" y="175" class="note">strict privacy settings</text>
+    <text x="20" y="200" class="note">destroy most classification</text>
+    <text x="20" y="225" class="note">utility.</text>
+    <text x="20" y="275" class="note">This is an academic</text>
+    <text x="20" y="300" class="note">trade-off study, not a</text>
+    <text x="20" y="325" class="note">production DP guarantee.</text>
+  </g>
+
+  <text x="60" y="630" class="sub">Source values: final course report. The original Group 1 DP challenge also contains a separate run with different exact metrics.</text>
+</svg>
