@@ -52,7 +52,7 @@ Reported result:
 
 The source analysis selects **0.75 participation** as the lowest stable fraction in that specific run.
 
-![Convergence and client participation](../evidence/convergence-participation.png)
+![Convergence and client participation](../evidence/convergence-participation.svg)
 
 ## Main-run communication observation
 
