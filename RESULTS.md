@@ -12,7 +12,7 @@ The final course report records a global evaluation against the complete UCI HAR
 | Log loss | **0.152159** |
 | Test samples | **2,947** |
 
-![Global evaluation](./evidence/global-evaluation.png)
+![Global evaluation](./evidence/global-evaluation.svg)
 
 The confusion matrix shows strong performance across all six activity classes. The most visible confusion occurs between the closely related static classes **SITTING** and **STANDING**, which is a plausible difficulty for sensor-based activity recognition.
 
@@ -59,7 +59,7 @@ The original Group 1 challenge analysis reports the following separate experimen
 | Round 15 | **94.71%** | **93.45%** |
 | Mean EMD | 0.0094 | 0.3116 |
 
-![IID vs Non-IID](./evidence/iid-vs-noniid.png)
+![IID vs Non-IID](./evidence/iid-vs-noniid.svg)
 
 The lower and slower Non-IID trajectory is consistent with local client distributions pulling the optimization in different directions.
 
@@ -90,8 +90,10 @@ For that run, increasing local work did not improve final accuracy and increased
 
 The source analysis selects `fraction=0.75` as the minimum stable fraction in that experiment.
 
-![Convergence and partial participation](./evidence/convergence-participation.png)
+![Convergence and partial participation](./evidence/convergence-participation.svg)
 
 ## Reproducibility note
 
 The class report, challenge scripts, and challenge analyses contain results from several separate runs. That is why some reported accuracy values differ slightly across sections. This portfolio preserves the run context instead of pretending every number came from one execution.
+
+The SVGs in this repository are sanitized **visual reconstructions from the reported metrics**, not raw screenshots from the lab environment.
