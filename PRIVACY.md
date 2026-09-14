@@ -58,7 +58,9 @@ These are production recommendations, not claims that they were implemented in t
 
 ## Privacy-utility evidence
 
-![Privacy utility trade-off](./evidence/privacy-utility.png)
+![Privacy utility trade-off](./evidence/privacy-utility.svg)
+
+The SVG above is a sanitized reconstruction from the reported class-run values rather than a raw lab screenshot.
 
 ## What the experiment does establish
 
