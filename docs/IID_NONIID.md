@@ -52,7 +52,7 @@ The original Group 1 analysis reports:
 | Round 10 | 94.71% | 93.21% |
 | Round 15 | **94.71%** | **93.45%** |
 
-![IID vs Non-IID](../evidence/iid-vs-noniid.png)
+![IID vs Non-IID](../evidence/iid-vs-noniid.svg)
 
 ## Techniques discussed in the project analysis
 
