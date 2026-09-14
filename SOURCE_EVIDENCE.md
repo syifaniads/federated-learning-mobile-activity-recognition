@@ -21,7 +21,7 @@ The report documents:
 - Differential Privacy;
 - convergence and communication experiments.
 
-The raw report is not mirrored into this public repository because some pages contain course-lab infrastructure addresses. Selected non-sensitive plots are exported into [`evidence/`](./evidence/).
+The raw report is not mirrored into this public repository because some pages contain course-lab infrastructure addresses.
 
 ## Original Group 1 implementation
 
@@ -69,16 +69,16 @@ The appendix of the final report links:
 - Group 3: https://github.com/sandhika-rizq/FL-Mobile-Kelompok-3/tree/main/challenges
 - Group 4: https://github.com/SakaGintoki/FL-Mobile-Kelompok-4/tree/main/challenges
 
-## Evidence images in this repository
+## Sanitized evidence in this repository
 
-The following images were exported from the final report for portfolio readability:
+Instead of copying raw report screenshots, the public portfolio reconstructs selected figures from the **reported values**:
 
-- [`evidence/global-evaluation.png`](./evidence/global-evaluation.png)
-- [`evidence/iid-vs-noniid.png`](./evidence/iid-vs-noniid.png)
-- [`evidence/privacy-utility.png`](./evidence/privacy-utility.png)
-- [`evidence/convergence-participation.png`](./evidence/convergence-participation.png)
+- [`evidence/global-evaluation.svg`](./evidence/global-evaluation.svg)
+- [`evidence/iid-vs-noniid.svg`](./evidence/iid-vs-noniid.svg)
+- [`evidence/privacy-utility.svg`](./evidence/privacy-utility.svg)
+- [`evidence/convergence-participation.svg`](./evidence/convergence-participation.svg)
 
-They are evidence of the reported coursework results; they are not newly generated benchmark claims.
+These SVGs are explanatory visualizations of existing coursework results. They are **not newly generated benchmark results** and intentionally omit lab IPs / infrastructure identifiers.
 
 ## Evidence integrity rule
 
