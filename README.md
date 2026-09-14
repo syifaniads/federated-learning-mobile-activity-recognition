@@ -78,7 +78,7 @@ The final course report records the following global evaluation after federated 
 
 The report compares the federated model with a centralized baseline of approximately **95.52% accuracy**, a gap of about **1.29 percentage points** in that evaluation run.
 
-![Global FL evaluation](./evidence/global-evaluation.png)
+![Global FL evaluation](./evidence/global-evaluation.svg)
 
 See [RESULTS.md](./RESULTS.md).
 
@@ -125,7 +125,7 @@ The Group 1 analysis reports:
 
 The experiment demonstrates **client drift**: when clients observe different label distributions, local updates become less aligned and FedAvg converges less cleanly.
 
-![IID vs Non-IID experiment](./evidence/iid-vs-noniid.png)
+![IID vs Non-IID experiment](./evidence/iid-vs-noniid.svg)
 
 See [docs/IID_NONIID.md](./docs/IID_NONIID.md).
 
@@ -133,7 +133,7 @@ See [docs/IID_NONIID.md](./docs/IID_NONIID.md).
 
 The project also explored Gaussian-noise Differential Privacy. The course report demonstrates the central trade-off: tighter privacy budgets introduce stronger noise and can severely reduce utility for this high-dimensional HAR task.
 
-![Privacy-utility trade-off](./evidence/privacy-utility.png)
+![Privacy-utility trade-off](./evidence/privacy-utility.svg)
 
 The repository deliberately treats the DP exercise as an **experiment**, not proof that the final system provides production-grade privacy. Federated Learning alone also does not guarantee privacy against model-update leakage.
 
@@ -150,9 +150,11 @@ The experiments also varied:
 
 In the Group 1 convergence analysis, increasing local epochs did not improve final accuracy enough to justify the added compute time, while partial client participation exposed a trade-off between communication cost and stability.
 
-![Convergence and client participation](./evidence/convergence-participation.png)
+![Convergence and client participation](./evidence/convergence-participation.svg)
 
 See [docs/CONVERGENCE_COMMUNICATION.md](./docs/CONVERGENCE_COMMUNICATION.md).
+
+> The evidence SVGs in this portfolio are **sanitized reconstructions from reported metrics**, not raw screenshots. This keeps the repository readable without exposing course-lab infrastructure identifiers.
 
 ## Engineering workflow
 
